@@ -22,7 +22,9 @@
 @layer base {
   @font-face {
     font-family: 'Stolzl';
-    src: local('Stolzl'), local('Stolzl Regular'), local('Stolzl-Regular'), local('Stolzl-Book');
+    src: url('/fonts/Stolzl-Regular.woff2') format('woff2'),
+         url('/fonts/Stolzl-Book.woff2') format('woff2'),
+         local('Stolzl'), local('Stolzl Regular'), local('Stolzl-Regular');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -30,7 +32,8 @@
 
   @font-face {
     font-family: 'Stolzl';
-    src: local('Stolzl Medium'), local('Stolzl-Medium');
+    src: url('/fonts/Stolzl-Medium.woff2') format('woff2'),
+         local('Stolzl Medium'), local('Stolzl-Medium');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -38,7 +41,8 @@
 
   @font-face {
     font-family: 'Stolzl';
-    src: local('Stolzl Bold'), local('Stolzl-Bold');
+    src: url('/fonts/Stolzl-Bold.woff2') format('woff2'),
+         local('Stolzl Bold'), local('Stolzl-Bold');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
