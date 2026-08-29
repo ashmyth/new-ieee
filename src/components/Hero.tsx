@@ -151,7 +151,7 @@ export const Hero: React.FC = () => {
             className="absolute z-20 flex items-center h-[51px]"
             style={{ 
               left: 'calc(clamp(50px, 21.1vw, 83px) + 1px)', 
-              top: '364px',
+              top: '361px',
             }}
           >
             <span 
@@ -169,7 +169,7 @@ export const Hero: React.FC = () => {
             className="absolute z-20 flex items-center h-[49px] gap-[17px]"
             style={{ 
               left: '8px', 
-              top: '417px',
+              top: '414px',
             }}
           >
             <span 
@@ -296,7 +296,7 @@ export const Hero: React.FC = () => {
             className="absolute z-20 flex items-center h-[134px]"
             style={{ 
               left: 'calc(50% - 235px)', 
-              top: 'calc(50% - 134px)' 
+              top: 'calc(50% - 137px)' 
             }}
           >
             <span 
@@ -315,7 +315,7 @@ export const Hero: React.FC = () => {
             className="absolute z-20 flex items-center h-[131px] gap-[57px]"
             style={{ 
               left: 'calc(50% - 518px)', 
-              top: 'calc(50% + 4px)' 
+              top: 'calc(50% + 1px)' 
             }}
           >
             <span 
