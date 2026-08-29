@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { TOKENS } from '../tokens/theme';
-import { CommunityVector, ForEngineersVector } from './HeroVector';
 
 export const Hero: React.FC = () => {
   const GRID_COLOR = TOKENS.colors.gridHero;
@@ -143,29 +142,54 @@ export const Hero: React.FC = () => {
           }}
         />
 
-        {/* Mobile Vector Graphics */}
+        {/* Mobile Typography */}
         <h1 
           aria-label="Community For Engineers" 
           className="contents"
         >
           <div 
-            className="absolute z-20 flex items-center h-[55px]"
+            className="absolute z-20 flex items-center h-[53px]"
             style={{ 
-              left: 'calc(clamp(50px, 21.1vw, 83px) + 6px)', 
-              top: '344px',
+              left: 'calc(clamp(50px, 21.1vw, 83px) + 1px)', 
+              top: '366px',
             }}
           >
-            <CommunityVector className="h-[55px] w-auto pointer-events-none" />
+            <span 
+              className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: 'clamp(38px, 14vw, 55px)',
+              }}
+            >
+              Community
+            </span>
           </div>
 
           <div 
-            className="absolute z-20 flex items-center h-[55px]"
+            className="absolute z-20 flex items-center h-[51px] gap-[0.2em]"
             style={{ 
               left: '8px', 
-              top: '404px',
+              top: '419px',
             }}
           >
-            <ForEngineersVector className="h-[55px] w-auto pointer-events-none" />
+            <span 
+              className="font-normal text-brand-blue m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: 'clamp(38px, 14vw, 55px)',
+              }}
+            >
+              For
+            </span>
+            <span 
+              className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: 'clamp(38px, 14vw, 55px)',
+              }}
+            >
+              Engineers
+            </span>
           </div>
         </h1>
       </section>
@@ -264,35 +288,54 @@ export const Hero: React.FC = () => {
         />
 
         {/* =======================================================================
-            Desktop Typography (Full 150px Scale Vector Graphics)
+            Desktop Typography
             ======================================================================= */}
         <h1 aria-label="Community For Engineers" className="contents">
           {/* Row 1: "Community" */}
           <div 
-            className="absolute z-20 flex items-center"
+            className="absolute z-20 flex items-center h-[139px]"
             style={{ 
-              left: 'calc(50% - 215px)', 
-              top: 'calc(50% - 165px)',
-              height: '150px',
+              left: 'calc(50% - 235px)', 
+              top: 'calc(50% - 134px)' 
             }}
           >
-            <CommunityVector 
-              className="h-full w-auto pointer-events-none" 
-            />
+            <span 
+              className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: '150px',
+              }}
+            >
+              Community
+            </span>
           </div>
 
           {/* Row 2: "For Engineers" */}
           <div 
-            className="absolute z-20 flex items-center"
+            className="absolute z-20 flex items-center h-[136px] gap-[0.2em]"
             style={{ 
-              left: 'calc(50% - 490px)', 
-              top: 'calc(50% + 5px)',
-              height: '150px',
+              left: 'calc(50% - 518px)', 
+              top: 'calc(50% + 4px)' 
             }}
           >
-            <ForEngineersVector 
-              className="h-full w-auto pointer-events-none" 
-            />
+            <span 
+              className="font-normal text-brand-blue m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: '150px',
+              }}
+            >
+              For
+            </span>
+            <span 
+              className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
+              style={{ 
+                fontFamily: TOKENS.fonts.display,
+                fontSize: '150px',
+              }}
+            >
+              Engineers
+            </span>
           </div>
         </h1>
 
