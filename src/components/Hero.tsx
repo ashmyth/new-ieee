@@ -166,7 +166,7 @@ export const Hero: React.FC = () => {
           </div>
 
           <div 
-            className="absolute z-20 flex items-center h-[51px] gap-[0.2em]"
+            className="absolute z-20 flex items-center h-[51px] gap-[14px]"
             style={{ 
               left: '8px', 
               top: '419px',
@@ -312,7 +312,7 @@ export const Hero: React.FC = () => {
 
           {/* Row 2: "For Engineers" */}
           <div 
-            className="absolute z-20 flex items-center h-[136px] gap-[0.2em]"
+            className="absolute z-20 flex items-center h-[136px] gap-[42px]"
             style={{ 
               left: 'calc(50% - 518px)', 
               top: 'calc(50% + 4px)' 
