@@ -148,7 +148,7 @@ export const Hero: React.FC = () => {
           className="contents"
         >
           <div 
-            className="absolute z-20 flex items-center h-[53px]"
+            className="absolute z-20 flex items-center h-[50px]"
             style={{ 
               left: 'calc(clamp(50px, 21.1vw, 83px) + 1px)', 
               top: '366px',
@@ -158,7 +158,7 @@ export const Hero: React.FC = () => {
               className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: 'clamp(38px, 14vw, 55px)',
+                fontSize: 'clamp(36px, 13.3vw, 52px)',
               }}
             >
               Community
@@ -166,7 +166,7 @@ export const Hero: React.FC = () => {
           </div>
 
           <div 
-            className="absolute z-20 flex items-center h-[51px] gap-[18px]"
+            className="absolute z-20 flex items-center h-[48px] gap-[17px]"
             style={{ 
               left: '8px', 
               top: '419px',
@@ -176,7 +176,7 @@ export const Hero: React.FC = () => {
               className="font-normal text-brand-blue m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: 'clamp(38px, 14vw, 55px)',
+                fontSize: 'clamp(36px, 13.3vw, 52px)',
               }}
             >
               For
@@ -185,7 +185,7 @@ export const Hero: React.FC = () => {
               className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: 'clamp(38px, 14vw, 55px)',
+                fontSize: 'clamp(36px, 13.3vw, 52px)',
               }}
             >
               Engineers
@@ -293,17 +293,17 @@ export const Hero: React.FC = () => {
         <h1 aria-label="Community For Engineers" className="contents">
           {/* Row 1: "Community" */}
           <div 
-            className="absolute z-20 flex items-center h-[139px]"
+            className="absolute z-20 flex items-center h-[132px]"
             style={{ 
               left: 'calc(50% - 235px)', 
-              top: 'calc(50% - 134px)' 
+              top: 'calc(50% - 132px)' 
             }}
           >
             <span 
               className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: '150px',
+                fontSize: '142.5px',
               }}
             >
               Community
@@ -312,17 +312,17 @@ export const Hero: React.FC = () => {
 
           {/* Row 2: "For Engineers" */}
           <div 
-            className="absolute z-20 flex items-center h-[136px] gap-[58px]"
+            className="absolute z-20 flex items-center h-[129px] gap-[55px]"
             style={{ 
               left: 'calc(50% - 518px)', 
-              top: 'calc(50% + 4px)' 
+              top: 'calc(50% + 6px)' 
             }}
           >
             <span 
               className="font-normal text-brand-blue m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: '150px',
+                fontSize: '142.5px',
               }}
             >
               For
@@ -331,7 +331,7 @@ export const Hero: React.FC = () => {
               className="font-normal text-text-primary m-0 select-none whitespace-nowrap leading-none tracking-[-0.06em]"
               style={{ 
                 fontFamily: TOKENS.fonts.display,
-                fontSize: '150px',
+                fontSize: '142.5px',
               }}
             >
               Engineers
